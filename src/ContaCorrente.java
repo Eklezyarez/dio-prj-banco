@@ -1,17 +1,13 @@
-public class ContaCorrente {
-    public int agencia;
-    public int numero;
-    public double saldo;
+import org.w3c.dom.ls.LSOutput;
 
-    public void sacar(){
+public class ContaCorrente extends Conta{
 
+    @Override
+    public void imprimirExtrato(){
+        System.out.println("Extrato Conta Corrente");
+        super.imprimirInfosComuns();
     }
 
-    public void depositar(){
 
-    }
 
-    public void transferir(){
-
-    }
 }
