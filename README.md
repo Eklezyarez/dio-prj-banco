@@ -1,2 +1,2 @@
 # dio-prj-banco
-### Projeto prático utilizando conceitos de POO
+### Projeto prático da DIO utilizando conceitos de POO
